@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "69212423997",
+    "project_id": "chatucam-dd3d8",
+    "storage_bucket": "chatucam-dd3d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69212423997:android:089ec2a3575c2b42d82754",
+        "android_client_info": {
+          "package_name": "com.jmmostazo.chatucam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zld3aOenefnV2eA6IGU3iE5jgKt0q2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
