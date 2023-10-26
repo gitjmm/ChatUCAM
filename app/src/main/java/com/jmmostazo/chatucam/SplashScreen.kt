@@ -14,13 +14,13 @@ class SplashScreen : AppCompatActivity() {
 
     fun MostrarBienvenida(){
         //Permite ejecutar un codigo pasado cierto tiempo
-        object : CountDownTimer(3000,1000){
+        object : CountDownTimer(5000,1000){
             override fun onTick(p0: Long) {
 
             }
-            //Una vez finalizado el tiempo nos dirigimos al Activity principal
+            //Una vez finalizado el tiempo nos dirigimos al Activity principal Inicio
             override fun onFinish() {
-                val intent = Intent(applicationContext,MainActivity::class.java)
+                val intent = Intent(applicationContext,Inicio::class.java)
                 startActivity(intent)
                 finish()
             }

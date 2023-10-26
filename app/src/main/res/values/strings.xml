@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">ChatUCAM</string>
     <string name="nombre_desarrollador">Jorge Martinez</string>
+
+    <string name="Btn_ir_registros">Registrarme</string>
+    <string name="Btn_ir_logueo">Ingresar</string>
+
+    <string name="Et_nombre_usuario">Nombre de usuario</string>
+    <string name="Et_email">Email</string>
+    <string name="Et_password">Password</string>
+    <string name="Et_r_password">Repetir password</string>
+    <string name="Btn_registrar">Registrar</string>
+
+
+
 </resources>
