@@ -11,6 +11,6 @@
     <string name="Et_r_password">Repetir password</string>
     <string name="Btn_registrar">Registrar</string>
 
-
+    <string name="menu_salir">Cerrar Sesión</string>
 
 </resources>
