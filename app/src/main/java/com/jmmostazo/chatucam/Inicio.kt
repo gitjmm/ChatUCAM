@@ -5,6 +5,7 @@ En esta clase Inicio vamos a realizar la llamada a las actividades de registro y
  */
 package com.jmmostazo.chatucam
 
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -39,4 +40,6 @@ class Inicio : AppCompatActivity() {
 
 
     }
+
+
 }
