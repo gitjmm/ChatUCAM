@@ -98,6 +98,14 @@ class RegistroActivity : AppCompatActivity() {
                     hashMap["imagen"] = ""
                     hashMap["buscar"] = h_nombre_usuario.lowercase()
 
+                    //Añadimos nuevos datos de usuario para la bd
+                    hashMap["nombre"] = ""
+                    hashMap["apellido"] = ""
+                    hashMap["edad"] = ""
+                    hashMap["profesion"] = ""
+                    hashMap["domicilio"] = ""
+                    hashMap["estado"] = "offline"
+
                     //Actualizamos los datos en Firebase con el hashMap. Posteriormente volvemos a MainActivity meidante intent
                     reference.updateChildren(hashMap).addOnCompleteListener { task2 ->
                         if (task2.isSuccessful) {
