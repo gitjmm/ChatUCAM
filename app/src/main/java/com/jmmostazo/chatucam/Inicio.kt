@@ -36,9 +36,9 @@ class Inicio : AppCompatActivity() {
             startActivity(intent)
         }
 
-        //Evento cuando pulsamos el botón Registro
+        //Evento cuando pulsamos el botón Login
         Btn_ir_logueo.setOnClickListener {
-            val intent = Intent(this@Inicio, RegistroActivity::class.java)
+            val intent = Intent(this@Inicio, LoginActivity::class.java)
             Toast.makeText(applicationContext,"Login de usuario",Toast.LENGTH_LONG).show()
             startActivity(intent)
         }

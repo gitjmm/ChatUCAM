@@ -13,4 +13,9 @@
 
     <string name="menu_salir">Cerrar Sesión</string>
 
+    <string name = "Et_email_login">Email</string>
+    <string name = "Et_password_login">Contraseña</string>
+    <string name = "Btn_login">Ingresar</string>
+
+    <!--<string name="Btn_cerrar_sesion">Cerrar Sesión</string>-->
 </resources>

@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/Et_email_login"
+            android:hint="@string/Et_email_login"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/Et_password_login"
+            android:hint="@string/Et_password_login"
+            android:inputType="textPassword"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btn_login"
+            android:hint="@string/Btn_login"
+            android:layout_marginTop="5dp"
+            android:text="Login"/>
+        
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
