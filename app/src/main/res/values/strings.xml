@@ -16,8 +16,10 @@
     <string name="Et_email_login">Email</string>
     <string name="Et_password_login">Contraseña</string>
     <string name="Btn_login">Ingresar</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name = "Nombre_usuario">Nombre de usuario</string>
 
     <!--<string name="Btn_cerrar_sesion">Cerrar Sesión</string>-->
 </resources>
