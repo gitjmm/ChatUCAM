@@ -12,6 +12,8 @@
     <string name="Btn_registrar">Registrar</string>
 
     <string name="menu_salir">Cerrar Sesión</string>
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="menu_perfil">Mi perfil</string>
 
     <string name="Et_email_login">Email</string>
     <string name="Et_password_login">Contraseña</string>

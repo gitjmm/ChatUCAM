@@ -25,6 +25,7 @@ import com.google.firebase.database.ValueEventListener
 import com.jmmostazo.chatucam.fragmentos.FragmentoChats
 import com.jmmostazo.chatucam.fragmentos.FragmentoUsuarios
 import com.jmmostazo.chatucam.model.Usuario
+import com.jmmostazo.chatucam.perfil.PerfilActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -126,6 +127,15 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         //Si seleccionamos un item y es Cerrar sesión
         return when(item.itemId) {
+            R.id.menu_perfil->{
+                val intent = Intent(applicationContext,PerfilActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+            R.id.menu_acerca_de->{
+                Toast.makeText(applicationContext,"Acerca de",Toast.LENGTH_LONG).show()
+                return true
+            }
             R.id.menu_salir->{
                 FirebaseAuth.getInstance().signOut()
                 val intent = Intent(this@MainActivity, Inicio::class.java)
