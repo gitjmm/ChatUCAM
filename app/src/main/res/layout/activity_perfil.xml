@@ -199,7 +199,6 @@
         <EditText
             android:id="@+id/P_telefono"
             android:hint="@string/P_telefono"
-            android:inputType="textCapWords"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
