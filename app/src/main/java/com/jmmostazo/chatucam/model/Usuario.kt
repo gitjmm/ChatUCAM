@@ -68,6 +68,14 @@ class Usuario {
         this.email = email
     }
 
+    fun getTelefono() : String?{
+        return telefono
+    }
+
+    fun setTelefono(telefono : String){
+        this.telefono = telefono
+    }
+
 
     fun getImagen() : String?{
         return imagen
@@ -116,6 +124,8 @@ class Usuario {
     fun setProfesion(profesion : String){
         this.profesion = profesion
     }
+
+
 
     fun getDomicilio() : String?{
         return domicilio

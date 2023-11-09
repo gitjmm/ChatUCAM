@@ -27,5 +27,17 @@
 
     <string name="Et_buscar_usuario">Buscar usuario</string>
 
+    <!-- Perfil usuario -->
+    <string name="P_n_usuario">Nombre usuario</string>
+    <string name="P_email">email</string>
+    <string name="P_nombres">Nombre</string>
+    <string name="P_apellidos">Apellidos</string>
+    <string name="P_profesion">Profesion</string>
+    <string name="P_domicilio">Domicilio</string>
+    <string name="P_edad">Edad</string>
+    <string name="P_telefono">Telefono</string>
+    <string name="P_proveedor">Proveedor</string>
+    <string name="Btn_Guardar">Guardar</string>
+
     <!--<string name="Btn_cerrar_sesion">Cerrar Sesión</string>-->
 </resources>

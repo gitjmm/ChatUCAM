@@ -105,7 +105,7 @@ class RegistroActivity : AppCompatActivity() {
                     hashMap["profesion"] = ""
                     hashMap["domicilio"] = ""
                     hashMap["estado"] = "offline"
-
+                    hashMap["telefono"] = ""
                     //Actualizamos los datos en Firebase con el hashMap. Posteriormente volvemos a MainActivity meidante intent
                     reference.updateChildren(hashMap).addOnCompleteListener { task2 ->
                         if (task2.isSuccessful) {
