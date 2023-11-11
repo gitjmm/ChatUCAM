@@ -45,6 +45,7 @@ class PerfilActivity : AppCompatActivity() {
         InicializarVariables()
         //Cuando pulsamos Guardar actualizamos la información
         Btn_guardar.setOnClickListener {
+            ObtenerDatos()
             ActualizarInformacion()
 
         }

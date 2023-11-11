@@ -133,7 +133,7 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.menu_acerca_de->{
-                Toast.makeText(applicationContext,"Acerca de",Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext,"CHAT UCAM Versión 1.0",Toast.LENGTH_LONG).show()
                 return true
             }
             R.id.menu_salir->{

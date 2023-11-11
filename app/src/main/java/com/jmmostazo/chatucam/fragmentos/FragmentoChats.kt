@@ -53,7 +53,7 @@ class FragmentoChats : Fragment() {
                     val chatList = dataSnapShot.getValue(ListaChats::class.java)
                     (usuarioListaChats as ArrayList).add(chatList!!)
                 }
-                //Llamos
+                //Llamamos
                 RecuperarListaChats()
             }
 

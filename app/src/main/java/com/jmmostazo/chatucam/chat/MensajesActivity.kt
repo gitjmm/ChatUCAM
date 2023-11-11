@@ -127,7 +127,7 @@ class MensajesActivity : AppCompatActivity() {
                     .placeholder(R.drawable.ic_item_usuario)
                     .into(imagen_perfil_chat)
 
-                //RecuperarMensajes(firebaseUser!!.uid, uid_usuario_seleccionado, usuario.getImagen())
+
             }
 
             override fun onCancelled(error: DatabaseError) {
